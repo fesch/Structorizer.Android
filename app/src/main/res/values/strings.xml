@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Structorizer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_load">Structorizer</string>
+    <string name="title_activity_startup">Structorizer</string>
+
+</resources>

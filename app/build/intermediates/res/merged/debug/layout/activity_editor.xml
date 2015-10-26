@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/none"
+    android:paddingLeft="@dimen/none"
+    android:paddingRight="@dimen/none"
+    android:paddingTop="@dimen/none"
+    android:orientation="vertical"
+    tools:context=".Editor" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dip" >
+
+        <ImageButton
+            android:id="@+id/button_delete"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/speed_delete"
+            android:minHeight="48dip" />
+        <ImageButton
+            android:id="@+id/button_int_after"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/speed_int_after"
+            android:minHeight="48dip" />
+        <ImageButton
+            android:id="@+id/button_alt_after"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/speed_alt_after"
+            android:minHeight="48dip" />
+		<ImageButton
+            android:id="@+id/button_case_after"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/speed_case_after"
+            android:minHeight="48dip" />
+        <ImageButton
+            android:id="@+id/button_for_after"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/speed_for_after"
+            android:minHeight="48dip" />
+        <ImageButton
+            android:id="@+id/button_while_after"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/speed_while_after"
+            android:minHeight="48dip" />
+        <ImageButton
+            android:id="@+id/button_repeat_after"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/speed_repeat_after"
+            android:minHeight="48dip" />
+        <ImageButton
+            android:id="@+id/button_endless_after"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/speed_for_after"
+            android:minHeight="48dip" />
+        
+        <ImageButton
+            android:id="@+id/button_call_after"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/speed_call_after"
+            android:minHeight="48dip" />
+		<ImageButton
+            android:id="@+id/button_jump_after"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/speed_jump_after"
+            android:minHeight="48dip" />
+		<ImageButton
+            android:id="@+id/button_para_after"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/speed_para_after"
+            android:minHeight="48dip" />
+		
+    </LinearLayout>
+    
+    <lu.fisch.structorizer.helpers.DrawSurface
+        android:id="@+id/drawsurface"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="@dimen/none"
+        android:paddingLeft="@dimen/none"
+        android:paddingRight="@dimen/none"
+        android:paddingTop="@dimen/none" />
+
+ 
+
+</LinearLayout><!-- From: file:/Users/robertfisch/Programs/Android/Structorizer/app/src/main/res/layout/activity_editor.xml -->

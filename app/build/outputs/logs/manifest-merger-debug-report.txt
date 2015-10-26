@@ -1,0 +1,67 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:2:1-36:12
+	package
+		ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:7:5-9:40
+	android:targetSdkVersion
+		ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:9:9-37
+		INJECTED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:8:9-34
+		INJECTED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:11:22-64
+application
+ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:13:5-34:19
+	android:label
+		ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:16:9-41
+	android:allowBackup
+		ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:14:9-35
+	android:icon
+		ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:15:9-45
+	android:theme
+		ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:17:9-40
+activity#lu.fisch.structorizer.Editor
+ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:18:9-21:20
+	android:label
+		ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:20:13-45
+	android:name
+		ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:19:13-56
+activity#lu.fisch.structorizer.Load
+ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:22:9-25:20
+	android:label
+		ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:24:13-56
+	android:name
+		ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:23:13-54
+activity#lu.fisch.structorizer.Startup
+ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:26:9-33:20
+	android:label
+		ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:28:13-59
+	android:name
+		ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:27:13-57
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:29:13-32:29
+action#android.intent.action.MAIN
+ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from /Users/robertfisch/Programs/Android/Structorizer/app/src/main/AndroidManifest.xml:31:27-74

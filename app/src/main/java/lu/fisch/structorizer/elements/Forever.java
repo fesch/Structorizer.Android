@@ -30,9 +30,10 @@ package lu.fisch.structorizer.elements;
  *
  *      Revision List
  *
- *      Author          Date			Description
- *      ------			----			-----------
+ *      Author          Date            Description
+ *      ------          ----            -----------
  *      Bob Fisch       2008.02.06      First Issue
+ *      Kay Gürtzig     2018.09.11      Bugfix #4 in copy()
  *
  ******************************************************************************************************
  *
@@ -229,7 +230,7 @@ public class Forever extends Element{
 	
 	public Element copy()
 	{
-		Element ele = new For(this.getText().copy());
+		Element ele = new Forever(this.getText().copy());
 		ele.setComment(this.getComment().copy());
 		ele.setColor(this.getColor());
 		((For) ele).q=(Subqueue) this.q.copy();
